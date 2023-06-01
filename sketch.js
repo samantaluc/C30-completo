@@ -25,7 +25,7 @@ function preload()  {
   rabbit = loadImage('Rabbit-01.png');
 }
 function setup() {
-  createCanvas(500,700);
+  createCanvas(displayWidth,displayHeight);
   frameRate(80);
   engine = Engine.create();
   world = engine.world;
