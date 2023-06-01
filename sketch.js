@@ -48,7 +48,7 @@ function setup() {
 }
 function draw() {
   background(51);
-  image(bg_img,width,height,0,0);
+  image(bg_img,width,height);
   push();
   imageMode(CENTER);
   if(fruit!=null){// adicionar <<<<<<<<<<<<<<<<<<
